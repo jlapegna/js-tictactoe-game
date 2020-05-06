@@ -24,6 +24,7 @@ body {
   padding: 20px;
   margin-top: 20px;
 }
+
 .header {
   justify-content: center;
   align-items: center;
@@ -42,10 +43,12 @@ body {
 }
 
 .restartButton:hover {
-  background-color: #ff6e6c;;
+  background-color: #ff6e6c;
+  ;
   color: white;
   border-radius: 2px;
-  border-color: #ff6e6c;;
+  border-color: #ff6e6c;
+  ;
   padding: 5px;
   font-size: 14px;
   transition-duration: 0.4s;
@@ -61,14 +64,14 @@ body {
 .col-12 {
   display: flex;
   flex-direction: row;
-  width:  100%;
+  width: 100%;
   height: 33.33%;
 }
 
 .game {
   display: flex;
   flex-direction: row;
-  width:  100%;
+  width: 100%;
   height: auto;
 }
 
@@ -79,18 +82,18 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  width:  100%;
+  width: 100%;
   min-height: 160px;
   padding: 0;
 }
 
 /* CELL BORDER */
-
 .cell:first-child,
 .cell:nth-child(2),
 .cell:nth-child(3) {
   border-top: none;
 }
+
 .cell:nth-child(3n + 1) {
   border-left: none;
 }
@@ -102,7 +105,6 @@ body {
 #no-border {
   border-bottom: none;
 }
-
 
 .footer {
   justify-content: center;
