@@ -76,9 +76,12 @@ body {
   cursor: pointer;
   border: 3px solid #1f1235;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: row;
   width:  100%;
   min-height: 160px;
+  padding: 0;
 }
 
 /* CELL BORDER */
@@ -96,7 +99,7 @@ body {
   border-right: none;
 }
 
-.no-border {
+#no-border {
   border-bottom: none;
 }
 
@@ -105,4 +108,21 @@ body {
   justify-content: center;
   align-items: center;
   margin: 10px 0 10px 0;
+}
+
+.x,
+.o {
+  cursor: default;
+}
+
+.x::after {
+  content: 'x';
+  color: #67568c;
+  font-size: 130px;
+}
+
+.o::after {
+  content: 'o';
+  color: #ff6e6c;
+  font-size: 130px;
 }
